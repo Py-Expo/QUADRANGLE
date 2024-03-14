@@ -1,0 +1,224 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fff;
+    background-size: cover;
+}
+
+/* Set background image for the 'bag' class */
+.bag {
+    background-image: url('/static/kg.jpg'); /* Adjust the path if needed */
+    height: 450px;
+    padding-top:;
+}
+
+/* Style for the header */
+header {
+    background-color: rgb(7, 7, 43);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the navigation links */
+nav {
+    display: flex;
+    justify-content:left;
+    background-color: white;
+    padding-left:10px;
+    padding-top:0px;
+    height: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 0px;
+    
+}
+
+nav a:hover {
+    background-color: #313a3b;
+    height:20px;
+    color:white;
+    
+}
+
+/* Style for paragraph with class 'parag0' */
+.parag0 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* Style for paragraph with class 'parag' */
+.parag {
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    padding-left: 5px; /* Adjust padding as needed */
+    padding-right: 5px; /* Adjust padding as needed */
+}
+
+/* Style for content section */
+.content {
+    width: 100%; /* Adjust width as needed */
+    height: 250px;
+    background-color: black;
+    padding-top: 1.1%;
+    margin-top: 570px;
+}
+
+/* Style for first class */
+.first {
+    padding: 20px;
+    font-size: 2em;
+    color: whitesmoke;
+    animation: bounce 4s infinite;
+}
+
+/* Keyframes for bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Style for 'jusd' class */
+.jusd {
+    padding-left: 40px;
+}
+
+/* Style for buttons */
+.btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+    border: #3498db;
+}
+
+/* Style for button icons */
+.btn i {
+    scroll-padding-block-end: 60%;
+    padding-bottom: 100%;
+    padding-left: 20%;
+    line-height: 50px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+/* Button hover effect */
+.btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+/* Before pseudo-element for buttons */
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+/* Button hover effect for before pseudo-element */
+.btn:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+/* Keyframes for button hover effect */
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links Inside the Dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: 10px 10px;
+}
+
+/* Change Link Color on Hover */
+.dropdown-content a:hover {
+    background-color:black;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the Background Color of the Dropdown Button When the Dropdown Content is Shown */
+.dropdown:hover .dropbtn {
+    background-color: #313a3b;
+    color:white;
+}
+.infra{
+    text-align:left;
+    padding-right:700px;
+    padding-top: -1000px;
+    margin-bottom:-550px;
+}
+
+
+
+
