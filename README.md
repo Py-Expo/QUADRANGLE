@@ -1,0 +1,8 @@
+SMART CAMPUS NAVIGATION 
+THE  AIM OF THE PROJECT IS TO DEVELOP A SYSTEM THAT IN CORPARETS MOBILE APPLICATION WHICH PROVIDES THE CAPABILITES TO SHOW THE CURRENT LOCATION OF THE USER
+TECHNOLOGY STACK:
+      Backend: python
+      framework: flask
+      mapping service: open street box
+      frontend:html,css
+      
